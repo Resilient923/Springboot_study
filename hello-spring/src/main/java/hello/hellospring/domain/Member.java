@@ -1,11 +1,25 @@
 package hello.hellospring.domain;
 
+// 도메인: 비즈니스 도메인 객체, 예)회원, 주문 등 DB에 저장하고 관리
+
+import javax.persistence.*;
+
+/**
+ * Object relational object
+ */
+@Entity
 public class Member {
-    private Long id;
+    @Id @GeneratedValue(strategy = GenerationType.IDENTITY)
+    private long id;
+
     private String name;
 
-    public Long getId() {
+    public long getId() {
         return id;
+    }
+
+    public void setId(long id) {
+        this.id = id;
     }
 
     public String getName() {
@@ -14,9 +28,5 @@ public class Member {
 
     public void setName(String name) {
         this.name = name;
-    }
-
-    public void setId(Long id) {
-        this.id = id;
     }
 }
