@@ -1,6 +1,19 @@
-chapter5/StudentTest.java
- chapter5.StudentTest
-chapter5/Student.java
- chapter5.Student
 classpart/FunctionTest.java
  classpart.FunctionTest
+reference/Point.java
+ reference.Point
+reference/Subject.java
+ reference.Subject
+reference/Circle.java
+ reference.Circle
+chapter5/Student.java
+ chapter5.Student
+chapter5/StudentTest.java
+ chapter5.StudentTest
+hiding/BirthDayTest.java
+ hiding.BirthDay
+ hiding.BirthDayTest
+reference/StudentTest.java
+ reference.StudentTest
+reference/Student.java
+ reference.Student
