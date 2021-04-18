@@ -7,7 +7,7 @@ public class Student {
         i++;
         System.out.println(i);
 
-        studentName = "fasdf";//인스턴스변수 ,멤버변수
+       // studentName = "fasdf";//인스턴스변수 ,멤버변수
         
         return serialNum;//static 변수, 클래스 변수
     }

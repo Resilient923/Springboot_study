@@ -16,3 +16,7 @@ staticex/StudentTest1.java
  staticex.StudentTest1
 staticex/Student.java
  staticex.Student
+singleton/Company.java
+ singleton.Company
+singleton/CompanyTest.java
+ singleton.CompanyTest
