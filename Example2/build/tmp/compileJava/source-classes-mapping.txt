@@ -12,3 +12,7 @@ cooperation/Student.java
  cooperation.Student
 cooperation/TakeTrans.java
  cooperation.TakeTrans
+staticex/StudentTest1.java
+ staticex.StudentTest1
+staticex/Student.java
+ staticex.Student

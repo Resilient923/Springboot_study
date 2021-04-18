@@ -15,6 +15,7 @@ class Person{
         
     }
     public Person returnSelf(){//반환형을 자기자신클래스랑 같게 한다.
+
         return this;
     }
 }
@@ -23,9 +24,9 @@ class Person{
 
 public class CallAnotherConst {
     public static void main(String[] args) {
-        Person p1 = new Person(); //이렇게 호출하면 default생성자
+        Person p1 = new Person("tls",100); //이렇게 호출하면 default생성자
         System.out.println(p1.name);
-
+       // System.out.println(p1);
         System.out.println(p1.returnSelf());
     }
 }
