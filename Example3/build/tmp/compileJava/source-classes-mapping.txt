@@ -8,5 +8,23 @@ array/ArrayTest.java
  array.ArrayTest
 array/ObjectCopy.java
  array.ObjectCopy
+array/ArrayListTest.java
+ array.ArrayListTest
 array/TwoDimensionArray.java
  array.TwoDimensionArray
+arraylist/Student.java
+ arraylist.Student
+arraylist/StudentTest.java
+ arraylist.StudentTest
+arraylist/Subject.java
+ arraylist.Subject
+inheritance/Customer.java
+ inheritance.Customer
+inheritance/Point.java
+ inheritance.Point
+inheritance/VipCustomer.java
+ inheritance.VipCustomer
+inheritance/Circle.java
+ inheritance.Circle
+inheritance/CustomerTest1.java
+ inheritance.CustomerTest1
