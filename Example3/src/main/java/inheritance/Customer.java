@@ -9,17 +9,23 @@ public class Customer {
 
     protected String customerName;
     protected String customerGrade;
-    int bounsPoint;
+
+    public void setBonusPoint(int bonusPoint) {
+        this.bonusPoint = bonusPoint;
+    }
+
+    int bonusPoint;
     double bonusRatio;
-
-
 
     public Customer(){
 
+        super();
         customerGrade = "SILVER";
         bonusRatio = 0.01;
+        System.out.println("호출");
 
     }
+
     public Customer(int customerID,String customerName){
         this.customerID = customerID;
         this.customerName = customerName;
@@ -29,12 +35,11 @@ public class Customer {
     }
     public int calcPrice(int price){
 
-
-        bounsPoint += price * bonusRatio;
+        bonusPoint += price * bonusRatio;
         return price;
     }
     public String showCustomerInfo(){
-        return customerName +"님의 등급은"+customerGrade+"이고, 보너스포인트는"+bounsPoint+"입니다.";
+        return customerName +"님의 등급은"+customerGrade+"이고, 보너스포인트는"+bonusPoint+"입니다.";
     }
     public int getCustomerID(){
         return customerID;
