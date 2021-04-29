@@ -2,12 +2,12 @@ array/ObjectCopy.java
  array.ObjectCopy
 arraylist/Student.java
  arraylist.Student
-inheritance/Customer.java
- inheritance.Customer
+array/Book.java
+ array.Book
 array/ArrayListTest.java
  array.ArrayListTest
-inheritance/CustomerTest1.java
- inheritance.CustomerTest1
+array/ArrayTest.java
+ array.ArrayTest
 array/BookArray.java
  array.BookArray
 array/TwoDimensionArray.java
@@ -18,21 +18,31 @@ arraylist/Subject.java
  arraylist.Subject
 array/ArrayTest2.java
  array.ArrayTest2
-inheritance/VipCustomer.java
- inheritance.VipCustomer
-inheritance/Circle.java
- inheritance.Circle
 inheritance/Point.java
  inheritance.Point
+inheritance/Circle.java
+ inheritance.Circle
+witharraylist/VipCustomer.java
+ witharraylist.VipCustomer
+inheritance/Customer.java
+ inheritance.Customer
+inheritance/CustomerTest1.java
+ inheritance.CustomerTest1
+witharraylist/CustomerTest.java
+ witharraylist.CustomerTest
+inheritance/VipCustomer.java
+ inheritance.VipCustomer
+witharraylist/GoldCustomer.java
+ witharraylist.GoldCustomer
+inheritance/GoldCustomer.java
+ inheritance.GoldCustomer
 inheritance/OverridingTest.java
  inheritance.OverridingTest
+witharraylist/Customer.java
+ witharraylist.Customer
 inheritance/AnimalTest.java
  inheritance.Animal
  inheritance.AnimalTest
  inheritance.Eagle
  inheritance.Human
  inheritance.Tiger
-array/ArrayTest.java
- array.ArrayTest
-array/Book.java
- array.Book
