@@ -14,11 +14,13 @@ public class BegginnerLevel extends PlayerLevel {
 
     @Override
     public void turn() {
+
         System.out.println("돌줄 몰라");
     }
 
     @Override
     public void showLevelMessage() {
+
         System.out.println("초보자레벨");
     }
 }
