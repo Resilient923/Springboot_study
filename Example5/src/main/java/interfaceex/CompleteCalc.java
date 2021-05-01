@@ -15,7 +15,15 @@ public  class CompleteCalc extends Calculator {//Calculator을 구현상속했�
             return ERROR;
         }
     }
+
+    @Override
+    public void description() {
+        System.out.println("완벽한 계산기 입니다");
+    }
+
     public void showInfo(){
+
         System.out.println("Calc 인터페이스를 구현함");
     }
+
 }

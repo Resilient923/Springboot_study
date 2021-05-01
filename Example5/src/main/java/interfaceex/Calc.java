@@ -12,5 +12,15 @@ public interface Calc {//인터페이스는 다 public
     int times(int num1,int num2);
     int divide(int num1,int num2);
 
+    default void description(){//default나 static으로 바꿔야 사용가능하다
+        System.out.println("정수 계산기를 구현");
+    }
+    static int total(int[]arr){
+        int total=0;
+        for(int i : arr){
+            total += i;
+        }
+        return  total;
+    }
 }
 
