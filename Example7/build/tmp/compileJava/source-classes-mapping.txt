@@ -1,0 +1,24 @@
+innerclass/InnerTest.java
+ innerclass.InnerTest
+ innerclass.OutClass
+ innerclass.OutClass$InClass
+ innerclass.OutClass$InStaticClass
+innerclass/LocalInnerTest.java
+ innerclass.LocalInnerTest
+ innerclass.Outer
+ innerclass.Outer$1MyRunnable
+lambda/StringConcat.java
+ lambda.StringConcat
+lambda/MyNumber.java
+ lambda.MyNumber
+lambda/StringConcatpl.java
+ lambda.StringConcatpl
+lambda/TestMyNumber.java
+ lambda.TestMyNumber
+ lambda.TestMyNumber$1
+lambda/TestStringConcat.java
+ lambda.TestStringConcat
+ lambda.TestStringConcat$1
+lambda/LambdaTest.java
+ lambda.LambdaTest
+ lambda.PrintString
