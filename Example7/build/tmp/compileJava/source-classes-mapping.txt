@@ -22,3 +22,10 @@ lambda/TestStringConcat.java
 lambda/LambdaTest.java
  lambda.LambdaTest
  lambda.PrintString
+stream/IntArrayTest.java
+ stream.IntArrayTest
+stream/ArrayListTest.java
+ stream.ArrayListTest
+stream/ReduceTest.java
+ stream.CompareString
+ stream.ReduceTest
