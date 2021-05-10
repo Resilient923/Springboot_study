@@ -29,3 +29,13 @@ stream/ArrayListTest.java
 stream/ReduceTest.java
  stream.CompareString
  stream.ReduceTest
+exception/ArrayExceptionTest.java
+ exception.ArrayExceptionTest
+exception/ExceptionTest.java
+ exception.ExceptionTest
+exception/AutoCloseObj.java
+ exception.AutoCloseObj
+exception/AutoCloseTest.java
+ exception.AutoCloseTest
+exception/ThrowException.java
+ exception.ThrowException
