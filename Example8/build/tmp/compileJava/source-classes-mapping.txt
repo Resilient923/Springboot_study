@@ -1,0 +1,10 @@
+others/ScannerTest.java
+ others.ScannerTest
+stream/inputstream/SystemInTest.java
+ stream.inputstream.SystemInTest
+stream/inputstream/FileInputStreamTest.java
+ stream.inputstream.FileInputStreamTest
+stream/inputstream/FileInputStreamTest2.java
+ stream.inputstream.FileInputStreamTest2
+outputstream/FileOutputStreamTest.java
+ outputstream.FileOutputStreamTest

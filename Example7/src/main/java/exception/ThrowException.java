@@ -26,5 +26,5 @@ public class ThrowException {
         System.out.println("end");
 
     }
-    
+
 }
