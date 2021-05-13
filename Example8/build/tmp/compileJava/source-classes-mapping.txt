@@ -8,3 +8,12 @@ stream/inputstream/FileInputStreamTest2.java
  stream.inputstream.FileInputStreamTest2
 outputstream/FileOutputStreamTest.java
  outputstream.FileOutputStreamTest
+decorator/FileCopyTest.java
+ decorator.FileCopyTest
+decorator/InputStreamReaderTest.java
+ decorator.InputStreamReaderTest
+decorator/DataInOutStreamTest.java
+ decorator.DataInOutStreamTest
+serialization/SerializationTest.java
+ serialization.Person
+ serialization.SerializationTest
