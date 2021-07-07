@@ -20,7 +20,7 @@ public class Course {
     @Column(nullable = false)
     private String tutor;
 
-    public Course(CourseRequestDto requestDto){
+    public Course(CourseRequestDto requestDto) {
         this.title = requestDto.getTitle();
         this.title = requestDto.getTutor();
     }

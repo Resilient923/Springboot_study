@@ -16,14 +16,17 @@ public class Course {
         this.tutor = tutor;
         this.days = days;
     }
+
     // Getter
     public String getTitle() {
         return this.title;
     }
+
     // Getter
     public String getTutor() {
         return this.tutor;
     }
+
     // Getter
     public int getDays() {
         return this.days;
@@ -33,10 +36,12 @@ public class Course {
     public void setTitle(String title) {
         this.title = title;
     }
+
     // Setter
     public void setTutor(String tutor) {
         this.tutor = tutor;
     }
+
     // Setter
     public void setDays(int days) {
         this.days = days;

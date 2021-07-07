@@ -8,7 +8,7 @@ import org.springframework.web.bind.annotation.RestController;
 public class PersonController {
 
     @GetMapping("/myinfo")
-    public Person getPerson(){
+    public Person getPerson() {
         Person person = new Person();
 
         person.setAge(26);

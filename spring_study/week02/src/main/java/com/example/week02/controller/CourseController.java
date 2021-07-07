@@ -19,6 +19,7 @@ public class CourseController {
     public List<Course> getCourses() {
         return courseRepository.findAll();
     }
+
     private final CourseService courseService;
 
     // PostMapping을 통해서, 같은 주소라도 방식이 다름을 구분합니다.
@@ -35,6 +36,7 @@ public class CourseController {
         // JPA를 이용하여 DB에 저장하고, 그 결과를 반환.
         return courseRepository.save(course);
     }
+
     @PutMapping("/api/courses/{id}")
     public Long updateCourse(@PathVariable Long id, @RequestBody CourseRequestDto requestDto) {
         return courseService.update(id, requestDto);
