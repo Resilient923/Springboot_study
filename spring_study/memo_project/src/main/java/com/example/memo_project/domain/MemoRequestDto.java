@@ -8,6 +8,7 @@ public class MemoRequestDto {
         return contents;
     }
     public String getUsername() {
+
         return username;
     }
 }
